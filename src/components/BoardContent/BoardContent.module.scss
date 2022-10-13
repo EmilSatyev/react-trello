@@ -1,0 +1,22 @@
+@import "./src/scss/varaibles";
+
+.boardColumns {
+  display: flex;
+  overflow-x: auto;
+  margin: 0 $gap $gap;
+  gap: 10px;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  &::-webkit-scrollbar:horizontal {
+    height: 11px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.24);
+    border-radius: 8px;
+    background-clip: padding-box;
+  }
+
+
+}

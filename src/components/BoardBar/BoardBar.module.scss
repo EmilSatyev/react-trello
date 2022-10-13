@@ -1,0 +1,9 @@
+@import "./src/scss/varaibles";
+
+.navbarBoard {
+  padding-left: $gap;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  background-color: $navbar-board-bg-color;
+}
